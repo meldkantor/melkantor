@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rtve</title>	
+	<link rel="shortcut icon" href="favicon.ico"/> 
+</head>
+<style type="text/css">
+	.thanks{
+		text-align: center;  color: green;  font-family: cursive;  position: absolute;  top: 0;bottom: 0;  left: 0;  margin: auto;  right: 0;  height: 40px;margin: 0;padding:0;
+	}
+	.back{cursor:pointer;  position: absolute;  bottom: 0;  left: 15px; color: purple; font-weight: bold; }
+	.back:hover{color: darkgreen;}
+</style>
+<body style="background:gainsboro; height:100vh;">	
+
+	<h1 class="thanks" style="top:25%;font-size:50px;  font-family: cursive;  font-weight: normal;">Thank you ! </h1>
+
+	<h2 class="thanks" style="top:40%;font-size:22px;">Your message has been successfully sent.</h2>
+
+	<h3 class="thanks" style="top:44%;font-size:18px;">We will contact you very soon!</h3>		
+
+	<p class="back" onclick="goBack()">Back to Contact Form</p>
+
+
+	<script>
+		function goBack() {
+			window.history.go(-2);
+		}
+	</script>
+
+</body>
+</html>
